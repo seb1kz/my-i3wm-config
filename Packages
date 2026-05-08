@@ -27,7 +27,7 @@
 - `dmenu` - prosty launcher
 
 ### Narzędzia pomocnicze
-- `grim` `slurp` - zrzuty ekranu (Wayland)
+- `Flameshot` - zrzuty ekranu 
 - `fastfetch` - informacje o systemie
 - `htop` - menedżer procesów
 - `cava` - wizualizacja audio
