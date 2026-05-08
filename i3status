@@ -1,1 +1,18 @@
+general {
+    colors = true
+    interval = 1
+    color_good = "#ffffff"
+    color_degraded = "#ffffff"
+    color_bad = "#ffffff"
+}
 
+order += "cpu_usage"
+order += "tztime"
+
+cpu_usage {
+    format = "CPU: %usage%%"
+}
+
+tztime local {
+    format = "%H:%M"
+}
