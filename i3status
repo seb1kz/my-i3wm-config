@@ -7,12 +7,13 @@ general {
 }
 
 order += "cpu_usage"
-order += "tztime"
+order += "time"
 
 cpu_usage {
-    format = "CPU: %usage%%"
+    format = "CPU: %usage"
 }
 
 tztime local {
+    format = "%H:%M"
     format = "%H:%M"
 }
