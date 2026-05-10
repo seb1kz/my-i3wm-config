@@ -7,8 +7,7 @@
 - `i3blocks` - rozszerzalny pasek stanu
 
 ### Terminal i edytory
-- `alacritty` - terminal GPU-accelerated
-- `kitty` - alternatywny terminal
+- `kitty` - terminal
 - `nano` / `vim` - edytory tekstu
 
 ### Narzędzia systemowe
