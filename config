@@ -41,7 +41,7 @@ bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 
 # uruchamianie
-exec_always feh --bg-scale /home/xfxfc/Dokumenty/laptop/loveit.jpg
+exec_always feh --bg-scale /home/xfxfc/Dokumenty/laptop/best.jpg
 exec --no-startup-id picom
 
 # czułość myszy (sprawdź ID - może być inne niż 9!)
