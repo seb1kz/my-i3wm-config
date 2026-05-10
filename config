@@ -45,7 +45,7 @@ exec_always feh --bg-scale /home/xfxfc/Dokumenty/laptop/loveit.jpg
 exec --no-startup-id picom
 
 # czułość myszy (sprawdź ID - może być inne niż 9!)
-exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -0.8
+exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -0.7
 
 # rozdzielczość i częstotliwość (odkomentuj i dostosuj!)
 exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 100.00
