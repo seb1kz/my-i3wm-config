@@ -43,7 +43,7 @@ blur-background-exclude = [
 
 # REGUŁY PRZEZROCZYSTOŚCI (Przykład: terminal Alacritty ma 85% widoczności) [citation:2][citation:6]
 opacity-rule = [
-  "85:class_g = 'Alacritty'",
+  "85:class_g = 'kitty'",
   "95:class_g = 'URxvt'"
 ];
 
