@@ -8,12 +8,7 @@ general {
     color_bad = "#ffffff"
 }
 
-order += "cpu_usage"
 order += "time"
-
-cpu_usage {
-    format = "CPU: %usage"
-}
 
 tztime local {
     format = "%H:%M"
