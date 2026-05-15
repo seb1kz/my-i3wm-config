@@ -10,6 +10,12 @@ default_floating_border none
 
 for_window [class=".*"] border pixel 0
 
+
+#glosnosc 
+bindsym XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ -l 1
+bindsym XF86AudioLowerVolume  exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+bindsym XF86AudioMute         exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+
 # terminal
 bindsym $mod+Return exec kitty
 
@@ -54,11 +60,11 @@ bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 
 # uruchamianie
-exec --no-startup-id feh --bg-scale /home/xfxfc/Downloads/Pobrane/best.jpg
-exec --no-startup-id picom
+exec --no-startup-id feh --bg-scale /home/xfxfc/Downloads/moje/laptop/likeit.jpg
+exec_always --no-startup-id picom
 
 # czułość myszy
-exec --no-startup-id xinput set-prop 9 "libinput Accel Speed" -0.7
+exec --no-startup-id xinput set-prop 6 "libinput Accel Speed" -0.7
 
 # rozdzielczość i częstotliwość
 exec --no-startup-id xrandr --output HDMI-1 --mode 1920x1080 --rate 100.00
@@ -69,13 +75,12 @@ bar {
     position top
     font pango:JetBrains mono 10
     colors {
-        background #111111
-        statusline #eeeeee
-        separator  #666666
-        focused_workspace  #444444 #444444 #ffffff
-        active_workspace   #222222 #222222 #aaaaaa
+        background #0d0d1a
+        statusline #e0b0ff
+        separator  #6a4e8b
+        focused_workspace  #2d1b3a #2d1b3a #e0b0ff
+        active_workspace   #1a1a2e #1a1a2e #b39ddb
         inactive_workspace #111111 #111111 #888888
-        urgent_workspace   #900000 #900000 #ffffff
+        urgent_workspace   #7b2c4a #7b2c4a #ffffff
     }
 }
-[xfxfc@arch-btw ~]
